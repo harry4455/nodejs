@@ -1,0 +1,22 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "nodeServer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha api/users/user.spec.js",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
+}
